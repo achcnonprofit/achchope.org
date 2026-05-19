@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Involved — ACHC</title>
+  <meta name="description" content="Volunteer, start a chapter, or help us spread the word. There is a way for everyone to show up." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .page-hero {
+      padding: 12rem 0 6rem;
+      background:
+        radial-gradient(ellipse 60% 50% at 80% 20%, rgba(244, 166, 35, 0.12) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 10% 80%, rgba(46, 196, 182, 0.1) 0%, transparent 60%),
+        var(--bg-primary);
+    }
+    .page-hero h1 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(2.4rem, 5.5vw, 4rem);
+      letter-spacing: -0.035em;
+      margin-bottom: 1.25rem;
+      max-width: 22ch;
+    }
+    .page-hero .lead { max-width: 60ch; font-size: 1.2rem; }
+    .role-block {
+      padding: 4rem 0;
+      border-top: 1px solid var(--border-subtle);
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: clamp(2rem, 5vw, 4rem);
+      align-items: start;
+    }
+    .role-block__num {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 6vw, 5rem);
+      font-weight: 700;
+      line-height: 1;
+      background: linear-gradient(135deg, var(--accent-teal) 0%, var(--accent-gold) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.04em;
+    }
+    .role-block__label {
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 0.75rem;
+      font-weight: 600;
+    }
+    .role-block h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.7rem, 3vw, 2.4rem);
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.025em;
+    }
+    .role-block p {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    .role-block ul { list-style: none; padding: 0; margin: 1.5rem 0; }
+    .role-block li {
+      padding: 0.6rem 0 0.6rem 1.75rem;
+      color: var(--text-muted);
+      position: relative;
+    }
+    .role-block li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent-teal);
+      font-weight: 600;
+    }
+    @media (max-width: 820px) {
+      .role-block { grid-template-columns: 1fr; gap: 1.5rem; padding: 2.5rem 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar" id="top">
+    <div class="container navbar__inner">
+      <a href="index.html" class="logo"><span class="logo__mark"><span>A</span></span>ACHC</a>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#how">How It Works</a></li>
+          <li><a href="tools.html">Our Tools</a></li>
+          <li><a href="index.html#letters">Letters of Hope</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="index.html#fund" class="nav-cta">Donate</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container reveal">
+      <span class="eyebrow">Get involved</span>
+      <h1>There is a way for everyone to show up.</h1>
+      <p class="lead">You do not need a clinical degree or a fundraising background. You need to care, and want to do something about it. Here is where you can plug in.</p>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="container">
+
+      <div class="role-block reveal">
+        <div>
+          <div class="role-block__num">01</div>
+          <div class="role-block__label">Volunteer</div>
+        </div>
+        <div>
+          <h2>Become a peer supporter.</h2>
+          <p>The most direct way to save a life is to be there when someone needs to talk. Our peer supporters are trained in QPR (Question, Persuade, Refer), the gold-standard short-form gatekeeper training in suicide prevention.</p>
+          <ul>
+            <li>4 to 6 hours of initial training, fully online</li>
+            <li>Flexible hours, fits around work or school</li>
+            <li>Ongoing supervision and community of supporters</li>
+            <li>Available to college students, working adults, anyone 18+</li>
+          </ul>
+          <a href="mailto:volunteer@achc.org" class="btn btn--teal" style="margin-top: 1rem;">
+            Apply now <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="role-block reveal">
+        <div>
+          <div class="role-block__num">02</div>
+          <div class="role-block__label">Build</div>
+        </div>
+        <div>
+          <h2>Start a chapter.</h2>
+          <p>Bring ACHC to your city or campus. We provide the technology, the training playbook, and the brand. You bring the local community, energy, and the people who will use it.</p>
+          <ul>
+            <li>Full chapter launch kit and onboarding</li>
+            <li>Access to the AI tracker for your community</li>
+            <li>Peer supporter training for your local leads</li>
+            <li>Connected to a national network of chapters</li>
+          </ul>
+          <a href="mailto:chapters@achc.org" class="btn btn--teal" style="margin-top: 1rem;">
+            Learn more <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="role-block reveal">
+        <div>
+          <div class="role-block__num">03</div>
+          <div class="role-block__label">Share</div>
+        </div>
+        <div>
+          <h2>Spread the word.</h2>
+          <p>Sometimes the most powerful thing you can do is make sure the right person finds us at the right moment. Share ACHC with one person who needs it, or one person who might fund it.</p>
+          <ul>
+            <li>Share our story on social, with one specific person in mind</li>
+            <li>Forward our donation page to your network</li>
+            <li>Talk to your school, employer, or community about our mission</li>
+          </ul>
+          <a href="index.html#involved" class="btn btn--teal" style="margin-top: 1rem;">
+            Share ACHC <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="role-block reveal">
+        <div>
+          <div class="role-block__num">04</div>
+          <div class="role-block__label">Fund</div>
+        </div>
+        <div>
+          <h2>Donate.</h2>
+          <p>Every dollar goes toward building the AI tracker, training peer supporters, and reaching communities that need it most. We are a nonprofit and operate lean: no marketing budgets, no executive salaries, no fluff.</p>
+          <a href="index.html#fund" class="btn btn--gold" style="margin-top: 1rem;">
+            Donate now <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="logo"><span class="logo__mark"><span>A</span></span>ACHC</a>
+          <p class="footer__tag">Suicide prevention for our generation. We catch the signs before crisis hits.</p>
+        </div>
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="index.html#how">How it works</a></li>
+            <li><a href="tools.html">Our tools</a></li>
+            <li><a href="index.html#letters">Letters of Hope</a></li>
+            <li><a href="index.html#fund">Donate</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Organization</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="get-involved.html">Get involved</a></li>
+            <li><a href="mailto:hello@achc.org">Contact</a></li>
+            <li><a href="index.html#fund">Support us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Crisis support</h4>
+          <ul>
+            <li><a href="tel:988">Call or text 988</a></li>
+            <li><a href="https://988lifeline.org" target="_blank" rel="noopener">988lifeline.org</a></li>
+            <li><a href="sms:741741&body=HOME">Text HOME to 741741</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__safe"><strong>If you are in crisis,</strong> please call or text 988. ACHC follows evidence-based safe-messaging guidelines for suicide prevention.</p>
+        <p class="footer__copy">Founded in memory of Alexander Chung. © <span id="year">2025</span> ACHC.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
