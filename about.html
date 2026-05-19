@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — ACHC</title>
+  <meta name="description" content="ACHC was built by young people who believe technology, community, and human connection can save lives." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .page-hero {
+      padding: 12rem 0 6rem;
+      background:
+        radial-gradient(ellipse 60% 50% at 80% 20%, rgba(46, 196, 182, 0.12) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 10% 80%, rgba(244, 166, 35, 0.08) 0%, transparent 60%),
+        var(--bg-primary);
+    }
+    .page-hero h1 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: clamp(2.4rem, 5.5vw, 4rem);
+      letter-spacing: -0.035em;
+      margin-bottom: 1.25rem;
+      max-width: 22ch;
+    }
+    .page-hero .lead { max-width: 60ch; font-size: 1.2rem; }
+    .principle {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      gap: 2rem;
+      padding: 2.5rem 0;
+      border-top: 1px solid var(--border-subtle);
+      align-items: start;
+    }
+    .principle:last-child { border-bottom: 1px solid var(--border-subtle); }
+    .principle__num {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent-teal);
+    }
+    .principle h3 { font-size: 1.5rem; margin-bottom: 0.85rem; letter-spacing: -0.02em; }
+    .principle p { color: var(--text-muted); font-size: 1.05rem; line-height: 1.6; }
+    @media (max-width: 720px) {
+      .principle { grid-template-columns: 1fr; gap: 0.75rem; padding: 1.75rem 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar" id="top">
+    <div class="container navbar__inner">
+      <a href="index.html" class="logo"><span class="logo__mark"><span>A</span></span>ACHC</a>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#how">How It Works</a></li>
+          <li><a href="tools.html">Our Tools</a></li>
+          <li><a href="index.html#letters">Letters of Hope</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="index.html#fund" class="nav-cta">Donate</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container reveal">
+      <span class="eyebrow">About ACHC</span>
+      <h1>Built by people who refused to look away.</h1>
+      <p class="lead">We are engineers, organizers, and advocates who believe technology, community, and human connection can save lives. The current system is not enough. So we are building what comes next.</p>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="container">
+      <div style="max-width: 880px; margin: 0 auto;">
+
+        <div class="principle reveal">
+          <div class="principle__num">01</div>
+          <div>
+            <h3>Prevention, not just response.</h3>
+            <p>Most mental health tools meet people in crisis. We are building the system that catches them weeks before they get there, by reading the signals they are already giving off.</p>
+          </div>
+        </div>
+
+        <div class="principle reveal">
+          <div class="principle__num">02</div>
+          <div>
+            <h3>The people who already love you.</h3>
+            <p>You do not need another stranger to call. You need the person already in your life to know it might be time to check in. We mobilize the support network that already exists.</p>
+          </div>
+        </div>
+
+        <div class="principle reveal">
+          <div class="principle__num">03</div>
+          <div>
+            <h3>Built with privacy as a foundation, not an afterthought.</h3>
+            <p>Your data is yours. You choose what is shared, with whom, and when. You can turn it off at any time. We do not sell anything, ever.</p>
+          </div>
+        </div>
+
+        <div class="principle reveal">
+          <div class="principle__num">04</div>
+          <div>
+            <h3>Designed for young adults, by young adults.</h3>
+            <p>Our team is the same age as the people we are building for. We know what it feels like to be 22 and unable to ask for help. The product is shaped by that.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cream">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about__copy reveal">
+          <span class="eyebrow">In memory</span>
+          <h2 class="display">For Alexander.</h2>
+          <p>This organization was founded in memory of Alexander Chung, whose loss inspired us to build something that could help others before they reach their darkest moment.</p>
+          <p>Everything we build is in service of the people we can still reach.</p>
+        </div>
+        <div class="about__photos reveal" data-delay="1">
+          <img src="assets/alex-1.png" alt="Alexander Chung in his Westlake football jersey" loading="lazy" />
+          <img src="assets/alex-2.png" alt="Alexander Chung wearing a flower crown, smiling" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="logo"><span class="logo__mark"><span>A</span></span>ACHC</a>
+          <p class="footer__tag">Suicide prevention for our generation. We catch the signs before crisis hits.</p>
+        </div>
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="index.html#how">How it works</a></li>
+            <li><a href="tools.html">Our tools</a></li>
+            <li><a href="index.html#letters">Letters of Hope</a></li>
+            <li><a href="index.html#fund">Donate</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Organization</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="get-involved.html">Get involved</a></li>
+            <li><a href="mailto:hello@achc.org">Contact</a></li>
+            <li><a href="index.html#fund">Support us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Crisis support</h4>
+          <ul>
+            <li><a href="tel:988">Call or text 988</a></li>
+            <li><a href="https://988lifeline.org" target="_blank" rel="noopener">988lifeline.org</a></li>
+            <li><a href="sms:741741&body=HOME">Text HOME to 741741</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__safe"><strong>If you are in crisis,</strong> please call or text 988. ACHC follows evidence-based safe-messaging guidelines for suicide prevention.</p>
+        <p class="footer__copy">Founded in memory of Alexander Chung. © <span id="year">2025</span> ACHC.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
